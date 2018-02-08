@@ -1,6 +1,5 @@
-package test;
 
-import main.*;
+
 import org.junit.Test;
 
 import java.util.List;
@@ -30,5 +29,6 @@ public class KidneyTest {
         alcohol = filterAlcohol.filterKidney(string.toString());
         alcohol = alcoholContainer.add(alcohol);
         assertEquals(4, alcohol.size());
+        System.out.println("alcoholContainer Size: "+alcohol.size());
     }
 }

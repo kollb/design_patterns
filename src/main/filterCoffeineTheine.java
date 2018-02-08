@@ -1,10 +1,8 @@
-package main;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class filterCoffeineTheine implements IFilterKidney{
+public class filterCoffeineTheine implements IFilterKidney {
 
     public List<String> filterKidney(String string){
         List<String> filterList = new ArrayList<String>();

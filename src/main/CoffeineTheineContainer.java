@@ -1,8 +1,4 @@
-package main;
-
-import java.util.List;
-
-public class CoffeineTheineContainer extends Container{
+public class CoffeineTheineContainer extends Container {
 
     @Override
     public void checkKidney() {

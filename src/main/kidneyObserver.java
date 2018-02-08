@@ -1,4 +1,3 @@
-package main;
 
 
 public class kidneyObserver implements IObserveKidney {

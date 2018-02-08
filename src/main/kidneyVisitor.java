@@ -1,5 +1,3 @@
-package main;
-
 public class kidneyVisitor {
     public void visit (AlcoholContainer container){
         System.out.println("Emptied alcoholContainer");
